@@ -5,8 +5,8 @@ compatibility_date = "2024-12-26"
 # compatibility_flags = [ "nodejs_compat" ]
 
 [vars]
-DATABASE_URL = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNzlkZDEzNTEtY2RlNC00NjE5LTg0MDUtNDBhOTgyOWI5MDEyIiwidGVuYW50X2lkIjoiOWRiOTRkYTc4YTdjY2M0ZmYwYTU2MmRlMDcyMmZjNTJhNjkzM2FlYWZmZmVmMjg1YzlmNjA3YjI5MWVmNjQ3MyIsImludGVybmFsX3NlY3JldCI6ImMyN2VhMDdmLTNjOWEtNDBmOS05OTA1LTM3ZDRmYjQzNTBhNSJ9.028LQ0akAZaBBD0LielI3PU_60QFfCrJW_nAWge7JEM"
-JWT_SECRET="mediumblog"
+DATABASE_URL = ""
+JWT_SECRET=""
 
 [observability.logs]
 enabled = true
