@@ -78,6 +78,7 @@ userRouter.post("/signin", async (c) => {
   }).$extends(withAccelerate());
 
   const body = await c.req.json();
+  
   const hashedPassword = await sign(body.password, c.env.JWT_SECRET);
 
   const user = await prisma.user.findUnique({
